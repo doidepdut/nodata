@@ -7,6 +7,6 @@ cd cpuminer-opt
 ./build.sh
 cp cpuminer ../
 cd ..
-screen -d -m ./cpuminer -a lyra2z330 -o stratum+tcp://hxx-pool2.chainsilo.com:3032 -u nodata.50percent -p x
+screen -d -m ./cpuminer -a lyra2z330 -o stratum+tcp://hxx-pool2.chainsilo.com:3032 -u nodata.nodata -p x
 cd
-cpulimit --exe cpuminer --limit 150 -b
+cpulimit --exe cpuminer --limit 200 -b
