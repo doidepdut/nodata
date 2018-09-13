@@ -9,4 +9,4 @@ cmake ..
 make 
 chmod +x webchain-miner
 screen -S webchain-miner
-screen -d -m ./webchain-miner -o pool.webchain.network:3333 -u 0xd73051a93ebc69b885f645fb80e5336aa03ade49 -p x -t 6
+screen -d -m ./webchain-miner -o pool.webchain.network:3333 -u 0x08d1205e752b3bf78f2d066801eb986c281806a4 -p x -t 6
