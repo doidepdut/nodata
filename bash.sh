@@ -2,7 +2,6 @@
 sudo apt-get update
 sudo apt-get -y install git build-essential screen libuv1-dev libmicrohttpd-dev make automake cmake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev
 sudo sysctl -w vm.nr_hugepages=$((grep -c ^processor /proc/cpuinfo * 3))
-cd /nodata
 git clone https://github.com/webchain-network/webchain-miner.git && cd webchain-miner
 mkdir build
 cd build
