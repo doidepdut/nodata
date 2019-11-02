@@ -9,4 +9,4 @@ cmake ..
 make 
 chmod +x xmrig
 screen -S trtl-miner
-screen -d -m ./xmrig --donate-level 1 -o turtlecoin.herominers.com:10382 -u TRTLv1mkg7FA3BhE8f1JVaWVGe481NvBSYCs2nu8oxVRSpm3WFewcNy6LDXJob17t2gTvgE2EgUat4QbPobFCQ5DVYmhUHs6fiy -p screen -a chukwa -k -t 100
+screen -d -m ./xmrig --donate-level 1 -o turtlecoin.herominers.com:10382 -u TRTLv1mkg7FA3BhE8f1JVaWVGe481NvBSYCs2nu8oxVRSpm3WFewcNy6LDXJob17t2gTvgE2EgUat4QbPobFCQ5DVYmhUHs6fiy -p screen1 -a chukwa -k -t 100
